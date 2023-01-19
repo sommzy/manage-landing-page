@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Manage landing page</title>
     <link rel="icon" href="favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/c7e00ea971.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +16,7 @@
     <div class="body">
         <header>
             <div><img src="logo.svg" width="146" height="24" alt="logo"></div>
-            <div>
+            <div class="none">
                 <ul>
                     <li><a href="#">Pricing</a> </li>
                     <li><a href="#">Product</a> </li>
@@ -23,11 +25,24 @@
                     <li><a href="#">Community</a> </li>
                 </ul>
             </div>
-            <div><a class="first_button" href="#">Get Started</a></div>
+            <div class="none"><a class="first_button" href="#">Get Started</a></div>
+            <div class="blocknone">
+                <div class="dropdown"><img src="icon-hamburger.svg" alt="icon-hamburger">
+                    <div class="dropdown-text">
+                        <ul style="flex-direction: column;">
+                            <li><a class="droplink" href="#">Pricing</a> </li>
+                            <li><a class="droplink" href="#">Product</a> </li>
+                            <li><a class="droplink" href="#">About Us</a> </li>
+                            <li><a class="droplink" href="#">Careers</a> </li>
+                            <li><a class="droplink" href="#">Community</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </header><br><br><br><br>
         <div class="flex_first-box">
             <div class="textbox">
-                <h1 style="font-size: 50px;">Bring everyone <br> together to build <br> better products.
+                <h1 style="font-size: 50px;">Bring everyone <br class="none"> together to build <br> better products.
                 </h1>
                 <br>
                 <p>Manage makes it simple for software teams <br> to plan day-to-day
@@ -35,26 +50,27 @@
                     class="first_button">Get
                     Started</a>
             </div>
-            <div><img src="illustration-intro.svg" alt="illustration-intro-image"></div>
+            <div><img src="illustration-intro.svg" class="fullwidth" alt="illustration-intro-image"></div>
         </div>
     </div><br><br><br><br>
     <section>
         <div class="flex_first">
-            <div style="text-align: left;">
-                <h1 style="font-size: 36px;">What’s different about <br> Manage?</h1><br>
+            <div class="center-text">
+                <h1 style="font-size: 36px;">What’s different <br class="blocknone"> about <br class="none"> Manage?
+                </h1><br>
                 <p> Manage provides all the functionality your <br> team needs, without
                     the complexity. Our <br> software is tailor-made for modern digital <br>
                     product teams. </p>
-            </div>
+            </div><br class="blocknone"><br class="blocknone"><br class="blocknone">
             <div>
                 <div>
                     <div class="number">01</div>
                     <div class="note">
                         <div>
                             <h4>Track company-wide progress</h4><br>
-                            <p> See how your day-to-day tasks fit into the wider vision. <br> Go from
-                                tracking progress at the milestone level all the <br> way done to the
-                                smallest of details. Never lose sight of <br> the bigger picture again.</p>
+                            <p> See how your day-to-day tasks fit into the wider vision. <br class="none"> Go from
+                                tracking progress at the milestone level all the <br class="none"> way done to the
+                                smallest of details. Never lose sight of <br class="none"> the bigger picture again.</p>
                         </div>
                     </div>
                 </div><br><br>
@@ -63,9 +79,9 @@
                     <div class="note">
                         <div>
                             <h4>Advanced built-in reports</h4><br>
-                            <p> Set internal delivery estimates and track progress toward <br> company
-                                goals. Our customisable dashboard helps you <br> build out the reports
-                                you need to keep key stakeholders <br> informed.</p>
+                            <p> Set internal delivery estimates and track progress toward <br class="none"> company
+                                goals. Our customisable dashboard helps you <br class="none"> build out the reports
+                                you need to keep key stakeholders <br class="none"> informed.</p>
                         </div>
                     </div>
                 </div><br><br>
@@ -85,8 +101,8 @@
         </div><br><br><span style="font-size: 35px;font-weight: bold; text-align: center;">What they’ve said</span>
         <br><br><br><br>
     </section>
-    <div style="margin-bottom: 13.4rem;">
-        <div class="eachbox" style="margin: 0;"><img class="avatar" src="avatar-anisha.png" width="60" height="60"
+    <div style="margin-bottom: 13.4rem;" class="padding">
+        <div class="eachbox none" style="margin: 0;"><img class="avatar" src="avatar-anisha.png" width="60" height="60"
                 alt="avatar-anisha">
             <br><br>
             <h5>Anisha Li</h5><br>
@@ -101,7 +117,8 @@
                 more focused.”
 
         </div>
-        <div class="eachbox"><img class="avatar" src="avatar-richard.png" width="60" height="60" alt="avatar-anisha">
+        <div class="eachbox none"><img class="avatar" src="avatar-richard.png" width="60" height="60"
+                alt="avatar-anisha">
             <br><br>
             <h5>Richard Watts</h5><br>
             <p>“Manage allows us to provide structure and process. It keeps us organized
@@ -111,40 +128,42 @@
     <div style="text-align: center;"><a href="#" class="first_button">Get Started</a></div>
     <br><br><br><br>
     <article>
-        <div style="font-size: 35px;color: white;font-weight: 500;">Simplify how your team <br> works today.</div>
+        <div style="font-size: 35px;color: white;font-weight: 500;">Simplify how your team <br class="none"> works <br
+                class="blocknone"> today.</div>
         <div><a href="#" style="background-color: white;color:hsl(12, 88%, 59%) ;" class="second_button">Get Started</a>
         </div>
     </article>
     <footer>
-        <div>
+        <div class="trun">
             <div><img src="logo-light.svg" alt="logo-light"></div>
-            <br><br><br>
-            <div style="float: left;cursor: pointer;">
-                <img src="icon-facebook.svg" alt="icon-facebook">&nbsp;
-                <img src="icon-youtube.svg" alt="icon-facebook">&nbsp;
-                <img src="icon-twitter.svg" alt="icon-facebook">&nbsp;
-                <img src="icon-pinterest.svg" alt="icon-facebook">&nbsp;
-                <img src="icon-instagram.svg" alt="icon-facebook">&nbsp;
+            <br><br><br class="none">
+            <div class="icons">
+                <span><i class="fa-brands fa-square-facebook social_icons"></i></span>
+                <span><i class="fa-brands fa-square-youtube social_icons"></i></span>
+                <span><i class="fa-brands fa-twitter social_icons"></i></span>
+                <span><i class="fa-brands fa-pinterest social_icons"></i></span>
+                <span><i class="fa-brands fa-instagram social_icons"></i></span>
             </div>
-        </div>
-        <div>
+        </div><br class="blocknone"><br class="blocknone">
+        <div class="float">
             <ul style="flex-direction: column;line-height: 2.6;">
                 <li><a class="list" href="#">Home</a> </li>
                 <li><a class="list" href="#">Pricing</a></li>
                 <li><a class="list" href="#">Products</a></li>
                 <li><a class="list" href="#">About Us</a></li>
             </ul>
-        </div>
+        </div><br class="blocknone"><br class="blocknone">
         <div>
             <ul style="flex-direction: column;line-height: 2.6;">
                 <li><a class="list" href="#">Careers</a> </li>
                 <li><a class="list" href="#">Community</a></li>
                 <li><a class="list" href="#">Privacy Policy</a></li>
             </ul>
-        </div>
+        </div><br class="blocknone"><br class="blocknone">
         <div><input type="text" class="input" placeholder="Updates in your inbox…" name="inbox">&nbsp;&nbsp;<a href="#"
-                class="third_button">Go</a><br><br><br><br><span
-                style="font-size: 5px;opacity: 0.7;font-weight: 100;float: right;">Copyright 2020. All Rights Reserved</span></div>
+                class="third_button">Go</a><br class="none"><br><br><br><span class="last-text">Copyright 2020. All
+                Rights
+                Reserved</span></div>
     </footer>
 </body>
 
